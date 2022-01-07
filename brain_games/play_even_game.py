@@ -32,9 +32,9 @@ def play_even_game(name):
             print('Correct!')
             iteration += 1
         else:
-            print(f"'{player_input}'is wrong answer ;( "
+            print(f"'{player_input}' is wrong answer ;( "
                   f"correct answer was '{correct_answer}'")
-            print(f"Let's try again {name}")
+            print(f"Let's try again, {name}!")
             playing = False
     if iteration == 3:
         print(f'Congratulations, {name}!')

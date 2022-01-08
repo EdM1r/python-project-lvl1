@@ -6,3 +6,5 @@
 ![linter](https://github.com/EdM1r/python-project-lvl1/actions/workflows/run_lint.yml/badge.svg)
 
 brain-even asciinema availiable here: https://asciinema.org/a/qfcnHmKFWgEHlZGJ4XGy6c6wN
+brain-calc asciinema availiable here: https://asciinema.org/a/fCKNzZXPzfBClvFc5FaL1ffVx
+

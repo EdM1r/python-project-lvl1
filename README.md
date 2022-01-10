@@ -10,3 +10,6 @@ brain-even asciinema availiable here: https://asciinema.org/a/qfcnHmKFWgEHlZGJ4X
 brain-calc asciinema availiable here: https://asciinema.org/a/fCKNzZXPzfBClvFc5FaL1ffVx
 
 brain-gcd asciinema availiable here: https://asciinema.org/a/xlCKw2LHeMiUEIic14mBZcyUq
+
+brain-progression asciinema available here: https://asciinema.org/a/3Xw5cB461Mnn0KOhnJwrghmki
+

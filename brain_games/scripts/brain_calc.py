@@ -1,15 +1,12 @@
 #!/usr/bin/env python
 # test project for hexlet lvl1
-from brain_games.cli import welcome_user
-from brain_games.games.engine import engine
+from brain_games.engine import engine
 from brain_games.games.calc_game import generate_expression
+from brain_games.games.calc_game import RULES
 
 
 def main():
-    print('Welcome to Brain Games!')
-    name = welcome_user()
-    print('What is the result of the expression?')
-    engine(name, generate_expression)
+    engine(generate_expression, RULES)
 
 
 if __name__ == '__main__':

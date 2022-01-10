@@ -1,5 +1,7 @@
 import random
 
+RULES = 'What is the result of the expression?'
+
 
 def generate_expression():
     number_1 = random.randint(1, 20)

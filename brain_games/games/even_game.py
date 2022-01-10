@@ -1,5 +1,7 @@
 import random
 
+RULES = 'Type "yes" if number is even, and "no" if it is not'
+
 
 def generate_expression():
     number_1 = random.randint(1, 100)

@@ -1,6 +1,10 @@
 
 
-def engine(name, generate_expression):
+def engine(generate_expression, rules):
+    print('Welcome to Brain Games!')
+    name = input('May I have your name? ')
+    print(f'Hello, {name}!')
+    print(rules)
     playing = True
     iteration = 0
     while playing is True and iteration < 3:

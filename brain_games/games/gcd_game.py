@@ -1,6 +1,8 @@
 import random
 import math
 
+RULES = 'Find the greatest common divisor of given numbers.'
+
 
 def generate_expression():
     number_1 = random.randint(1, 100)

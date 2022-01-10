@@ -1,5 +1,7 @@
 import random
 
+RULES = 'What number is missing in the progression?'
+
 
 def generate_expression():
     first_number = random.randint(1, 100)

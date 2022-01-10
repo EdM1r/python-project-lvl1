@@ -1,14 +1,14 @@
 
 
-def engine(name, generate_expression, check_answer):
+def engine(name, generate_expression):
     playing = True
     iteration = 0
     while playing is True and iteration < 3:
-        expression = generate_expression()
+        expression, correct_answer = generate_expression()
+        correct_answer = str(correct_answer)
         print(f'Questions: {expression}')
         player_input = input("Your answer: ")
-        is_correct, correct_answer = check_answer(expression, player_input)
-        if is_correct:
+        if correct_answer == player_input:
             print('Correct!')
             iteration += 1
         else:

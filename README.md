@@ -13,3 +13,5 @@ brain-gcd asciinema availiable here: https://asciinema.org/a/xlCKw2LHeMiUEIic14m
 
 brain-progression asciinema available here: https://asciinema.org/a/3Xw5cB461Mnn0KOhnJwrghmki
 
+brain-prime asciinema available here: https://asciinema.org/a/1EIs2IhSt9JAAWGshc9RC63cV
+

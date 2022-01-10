@@ -5,9 +5,8 @@ def engine(generate_expression, rules):
     name = input('May I have your name? ')
     print(f'Hello, {name}!')
     print(rules)
-    playing = True
     iteration = 0
-    while playing is True and iteration < 3:
+    while iteration < 3:
         expression, correct_answer = generate_expression()
         correct_answer = str(correct_answer)
         print(f'Questions: {expression}')
@@ -19,7 +18,7 @@ def engine(generate_expression, rules):
             print(f"'{player_input}' is wrong answer ;( "
                   f"correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
-            playing = False
+            break
     if iteration == 3:
         print(f'Congratulations, {name}!')
 

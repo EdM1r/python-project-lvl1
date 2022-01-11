@@ -5,6 +5,8 @@
 
 ![linter](https://github.com/EdM1r/python-project-lvl1/actions/workflows/run_lint.yml/badge.svg)
 
+This is learning project for Hexlet school. This is first python project in the course. To install this on your machine, clone repository, then use commands make install, make build, make package-install. After this, all commands will be available from your terminal. 
+
 brain-even asciinema availiable here: https://asciinema.org/a/qfcnHmKFWgEHlZGJ4XGy6c6wN
 
 brain-calc asciinema availiable here: https://asciinema.org/a/fCKNzZXPzfBClvFc5FaL1ffVx

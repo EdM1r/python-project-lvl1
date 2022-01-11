@@ -2,7 +2,7 @@ ITTERATION_MAX = 3
 
 
 def engine(generate_expression, rules):
-    print('Welcome to Brain Games!')
+    print('Welcome to the Brain Games!')
     name = input('May I have your name? ')
     print(f'Hello, {name}!')
     print(rules)

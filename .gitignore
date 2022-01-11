@@ -2,3 +2,7 @@
 __pycache__
 dist/
 *.pyc
+dist
+brain_games/__pycache__
+brain_games/games/__pycache__
+brain_games/scripts/__pycache__

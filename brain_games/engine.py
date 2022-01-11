@@ -1,3 +1,4 @@
+ITTERATION_MAX = 3
 
 
 def engine(generate_expression, rules):
@@ -6,7 +7,7 @@ def engine(generate_expression, rules):
     print(f'Hello, {name}!')
     print(rules)
     iteration = 0
-    while iteration < 3:
+    while iteration < ITTERATION_MAX:
         expression, correct_answer = generate_expression()
         correct_answer = str(correct_answer)
         print(f'Questions: {expression}')
@@ -19,7 +20,7 @@ def engine(generate_expression, rules):
                   f"correct answer was '{correct_answer}'")
             print(f"Let's try again, {name}!")
             break
-    if iteration == 3:
+    if iteration == ITTERATION_MAX:
         print(f'Congratulations, {name}!')
 
 
